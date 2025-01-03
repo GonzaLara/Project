@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fuzzy Bubbles', 'Kanit', sans-serif, cursive;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, button, input {
+  font-weight: inherit; /* Hereda el font-weight definido en body */
+}
+
 .App {
   text-align: center;
 }
